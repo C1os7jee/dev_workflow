@@ -1,0 +1,394 @@
+{
+  "repository": "https://github.com/mattpocock/skills",
+  "commit": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+  "skills": [
+    {
+      "name": "setup-matt-pocock-skills",
+      "source_directory": "skills/engineering/setup-matt-pocock-skills"
+    },
+    {
+      "name": "grill-with-docs",
+      "source_directory": "skills/engineering/grill-with-docs"
+    },
+    {
+      "name": "grilling",
+      "source_directory": "skills/productivity/grilling"
+    },
+    {
+      "name": "domain-modeling",
+      "source_directory": "skills/engineering/domain-modeling"
+    },
+    {
+      "name": "codebase-design",
+      "source_directory": "skills/engineering/codebase-design"
+    },
+    {
+      "name": "tdd",
+      "source_directory": "skills/engineering/tdd"
+    },
+    {
+      "name": "diagnosing-bugs",
+      "source_directory": "skills/engineering/diagnosing-bugs"
+    },
+    {
+      "name": "code-review",
+      "source_directory": "skills/engineering/code-review"
+    },
+    {
+      "name": "to-spec",
+      "source_directory": "skills/engineering/to-spec"
+    },
+    {
+      "name": "to-tickets",
+      "source_directory": "skills/engineering/to-tickets"
+    },
+    {
+      "name": "implement",
+      "source_directory": "skills/engineering/implement"
+    },
+    {
+      "name": "implement-spec",
+      "source_directory": "skills/engineering/implement-spec"
+    }
+  ],
+  "files": [
+    {
+      "source_path": "skills/engineering/code-review/agents/openai.yaml",
+      "path": "code-review/agents/openai.yaml",
+      "source_sha256": "8229ca854e11dc8e6aef2131ee03f31fb1561cf905fab9ccc325180cf3331352",
+      "bundled_sha256": "8229ca854e11dc8e6aef2131ee03f31fb1561cf905fab9ccc325180cf3331352",
+      "changes": []
+    },
+    {
+      "source_path": "skills/engineering/code-review/SKILL.md",
+      "path": "code-review/instructions.md",
+      "source_sha256": "9c921a8d88138a41401d8897ca1bb852088ab1b7b605cdd04edc13e3e8aab6dd",
+      "bundled_sha256": "9c921a8d88138a41401d8897ca1bb852088ab1b7b605cdd04edc13e3e8aab6dd",
+      "changes": [
+        {
+          "kind": "rename-entry",
+          "from": "SKILL.md",
+          "to": "instructions.md"
+        }
+      ]
+    },
+    {
+      "source_path": "skills/engineering/codebase-design/DEEPENING.md",
+      "path": "codebase-design/DEEPENING.md",
+      "source_sha256": "f3dd099ce99289bd213914d8ee3e2429b78309c3957ca4583f7659551b1d53c1",
+      "bundled_sha256": "51d3f90b724ca6da0f10bc4171c31c45aa6eed2f4ea9e20ca7904a88cb6b3966",
+      "changes": [
+        {
+          "kind": "replace-link",
+          "from": "SKILL.md",
+          "to": "instructions.md",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "source_path": "skills/engineering/codebase-design/DESIGN-IT-TWICE.md",
+      "path": "codebase-design/DESIGN-IT-TWICE.md",
+      "source_sha256": "c222ab5a82e0405672eb9062d62496139a08828e45d07fc5f18e4952c10fac1a",
+      "bundled_sha256": "e1514ecdda0cdc0fa1a257e4ec2ebfa748a3a54506b3612745e326fc5933c0b0",
+      "changes": [
+        {
+          "kind": "replace-link",
+          "from": "SKILL.md",
+          "to": "instructions.md",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "source_path": "skills/engineering/codebase-design/agents/openai.yaml",
+      "path": "codebase-design/agents/openai.yaml",
+      "source_sha256": "edebc9e4fcfe102114012575eaa9600b9b5fd08c311664f389c36e7bc717740f",
+      "bundled_sha256": "edebc9e4fcfe102114012575eaa9600b9b5fd08c311664f389c36e7bc717740f",
+      "changes": []
+    },
+    {
+      "source_path": "skills/engineering/codebase-design/SKILL.md",
+      "path": "codebase-design/instructions.md",
+      "source_sha256": "2c20617f87ec8af6a434859f381b2f061a69b530444e74eb39e78bb016a6d1e2",
+      "bundled_sha256": "2c20617f87ec8af6a434859f381b2f061a69b530444e74eb39e78bb016a6d1e2",
+      "changes": [
+        {
+          "kind": "rename-entry",
+          "from": "SKILL.md",
+          "to": "instructions.md"
+        }
+      ]
+    },
+    {
+      "source_path": "skills/engineering/diagnosing-bugs/agents/openai.yaml",
+      "path": "diagnosing-bugs/agents/openai.yaml",
+      "source_sha256": "3e430dbe4334a87597488c060cb3dc3786bb00c9182877d6f5ec41f62490e90b",
+      "bundled_sha256": "3e430dbe4334a87597488c060cb3dc3786bb00c9182877d6f5ec41f62490e90b",
+      "changes": []
+    },
+    {
+      "source_path": "skills/engineering/diagnosing-bugs/SKILL.md",
+      "path": "diagnosing-bugs/instructions.md",
+      "source_sha256": "849198df88cdb65fd0d97236604c1fca7ff2f22d2f705f9724a800d0266b118d",
+      "bundled_sha256": "849198df88cdb65fd0d97236604c1fca7ff2f22d2f705f9724a800d0266b118d",
+      "changes": [
+        {
+          "kind": "rename-entry",
+          "from": "SKILL.md",
+          "to": "instructions.md"
+        }
+      ]
+    },
+    {
+      "source_path": "skills/engineering/diagnosing-bugs/scripts/hitl-loop.template.sh",
+      "path": "diagnosing-bugs/scripts/hitl-loop.template.sh",
+      "source_sha256": "35103539fc36873eea36074769ad454f9379d6fc8b2dc0e26ce987fd3bfe5503",
+      "bundled_sha256": "35103539fc36873eea36074769ad454f9379d6fc8b2dc0e26ce987fd3bfe5503",
+      "changes": []
+    },
+    {
+      "source_path": "skills/engineering/domain-modeling/ADR-FORMAT.md",
+      "path": "domain-modeling/ADR-FORMAT.md",
+      "source_sha256": "944c92aa790e8fbdc9199640b170979abb8a34ba8d0fe18c2a01a63bce140ca0",
+      "bundled_sha256": "944c92aa790e8fbdc9199640b170979abb8a34ba8d0fe18c2a01a63bce140ca0",
+      "changes": []
+    },
+    {
+      "source_path": "skills/engineering/domain-modeling/GLOSSARY-FORMAT.md",
+      "path": "domain-modeling/GLOSSARY-FORMAT.md",
+      "source_sha256": "21dcc40cdec8e151a829b98ab1517c1867bc444e3665134a98c6983411996801",
+      "bundled_sha256": "21dcc40cdec8e151a829b98ab1517c1867bc444e3665134a98c6983411996801",
+      "changes": []
+    },
+    {
+      "source_path": "skills/engineering/domain-modeling/agents/openai.yaml",
+      "path": "domain-modeling/agents/openai.yaml",
+      "source_sha256": "f6bf2aa996c6e6f53fdd0708e18a0d16a56aed8322cca59fedbe3c0d2c75f06b",
+      "bundled_sha256": "f6bf2aa996c6e6f53fdd0708e18a0d16a56aed8322cca59fedbe3c0d2c75f06b",
+      "changes": []
+    },
+    {
+      "source_path": "skills/engineering/domain-modeling/SKILL.md",
+      "path": "domain-modeling/instructions.md",
+      "source_sha256": "7b925d7b1e341a2eeae33ad68a8a8c0ab889a38ddd22a7598e4c240e5a7556a3",
+      "bundled_sha256": "7b925d7b1e341a2eeae33ad68a8a8c0ab889a38ddd22a7598e4c240e5a7556a3",
+      "changes": [
+        {
+          "kind": "rename-entry",
+          "from": "SKILL.md",
+          "to": "instructions.md"
+        }
+      ]
+    },
+    {
+      "source_path": "skills/engineering/grill-with-docs/agents/openai.yaml",
+      "path": "grill-with-docs/agents/openai.yaml",
+      "source_sha256": "94cd0ab161fb468a836349f5ed482ba58ce8e709a05c57ce533d739dbd35cca9",
+      "bundled_sha256": "94cd0ab161fb468a836349f5ed482ba58ce8e709a05c57ce533d739dbd35cca9",
+      "changes": []
+    },
+    {
+      "source_path": "skills/engineering/grill-with-docs/SKILL.md",
+      "path": "grill-with-docs/instructions.md",
+      "source_sha256": "7de372c13488f1ee96cc11cd8907b56b6809cc93eef776eeddd37de6b6cbe3fe",
+      "bundled_sha256": "7de372c13488f1ee96cc11cd8907b56b6809cc93eef776eeddd37de6b6cbe3fe",
+      "changes": [
+        {
+          "kind": "rename-entry",
+          "from": "SKILL.md",
+          "to": "instructions.md"
+        }
+      ]
+    },
+    {
+      "source_path": "skills/productivity/grilling/agents/openai.yaml",
+      "path": "grilling/agents/openai.yaml",
+      "source_sha256": "1411d7df7d99b7e621a1ff8283c8133cc2464be63d064e52d8ce169c6800ee9b",
+      "bundled_sha256": "1411d7df7d99b7e621a1ff8283c8133cc2464be63d064e52d8ce169c6800ee9b",
+      "changes": []
+    },
+    {
+      "source_path": "skills/productivity/grilling/SKILL.md",
+      "path": "grilling/instructions.md",
+      "source_sha256": "a146842ed93ca43d833550fa9adf02e58cb63c83fea9d4b4522995b82242d4e2",
+      "bundled_sha256": "a146842ed93ca43d833550fa9adf02e58cb63c83fea9d4b4522995b82242d4e2",
+      "changes": [
+        {
+          "kind": "rename-entry",
+          "from": "SKILL.md",
+          "to": "instructions.md"
+        }
+      ]
+    },
+    {
+      "source_path": "skills/engineering/implement-spec/agents/openai.yaml",
+      "path": "implement-spec/agents/openai.yaml",
+      "source_sha256": "fd41efb42c60c96320d6531be7e4bf15cbf5518cd652d57dff27ccffa46988e9",
+      "bundled_sha256": "fd41efb42c60c96320d6531be7e4bf15cbf5518cd652d57dff27ccffa46988e9",
+      "changes": []
+    },
+    {
+      "source_path": "skills/engineering/implement-spec/SKILL.md",
+      "path": "implement-spec/instructions.md",
+      "source_sha256": "1993a473cec40ac85d081c112cdffdc63ec3267c2e412055ad09e013a2f623d1",
+      "bundled_sha256": "1993a473cec40ac85d081c112cdffdc63ec3267c2e412055ad09e013a2f623d1",
+      "changes": [
+        {
+          "kind": "rename-entry",
+          "from": "SKILL.md",
+          "to": "instructions.md"
+        }
+      ]
+    },
+    {
+      "source_path": "skills/engineering/implement/agents/openai.yaml",
+      "path": "implement/agents/openai.yaml",
+      "source_sha256": "8970a8596ade0c28ab427f41a4ea242d6bdf6186c59ebf55e1238dbecaab79dc",
+      "bundled_sha256": "8970a8596ade0c28ab427f41a4ea242d6bdf6186c59ebf55e1238dbecaab79dc",
+      "changes": []
+    },
+    {
+      "source_path": "skills/engineering/implement/SKILL.md",
+      "path": "implement/instructions.md",
+      "source_sha256": "483bdc4ccf4ac31d86ac7beeaa0d0db80313e71e120bb8c59b3196ae5decd53d",
+      "bundled_sha256": "483bdc4ccf4ac31d86ac7beeaa0d0db80313e71e120bb8c59b3196ae5decd53d",
+      "changes": [
+        {
+          "kind": "rename-entry",
+          "from": "SKILL.md",
+          "to": "instructions.md"
+        }
+      ]
+    },
+    {
+      "source_path": "skills/engineering/setup-matt-pocock-skills/agents/openai.yaml",
+      "path": "setup-matt-pocock-skills/agents/openai.yaml",
+      "source_sha256": "9527de0110541c45712319025155aeab8dc7d77c6ed6e5e83271bab1851ab939",
+      "bundled_sha256": "9527de0110541c45712319025155aeab8dc7d77c6ed6e5e83271bab1851ab939",
+      "changes": []
+    },
+    {
+      "source_path": "skills/engineering/setup-matt-pocock-skills/domain.md",
+      "path": "setup-matt-pocock-skills/domain.md",
+      "source_sha256": "593a7042218689f1d24df89df14eaf0a20e19e0d0a7d479a01947ac78f0784b9",
+      "bundled_sha256": "593a7042218689f1d24df89df14eaf0a20e19e0d0a7d479a01947ac78f0784b9",
+      "changes": []
+    },
+    {
+      "source_path": "skills/engineering/setup-matt-pocock-skills/SKILL.md",
+      "path": "setup-matt-pocock-skills/instructions.md",
+      "source_sha256": "b01e05bfe8c323171275c6ceec78b12f1bd4c62dfd26c2cfe8be806d3883f1ed",
+      "bundled_sha256": "b01e05bfe8c323171275c6ceec78b12f1bd4c62dfd26c2cfe8be806d3883f1ed",
+      "changes": [
+        {
+          "kind": "rename-entry",
+          "from": "SKILL.md",
+          "to": "instructions.md"
+        }
+      ]
+    },
+    {
+      "source_path": "skills/engineering/setup-matt-pocock-skills/issue-tracker-github.md",
+      "path": "setup-matt-pocock-skills/issue-tracker-github.md",
+      "source_sha256": "6fdb3e9b00b7b0b115ecac3b1c00e3790f637f190abf598815368722c0a94692",
+      "bundled_sha256": "6fdb3e9b00b7b0b115ecac3b1c00e3790f637f190abf598815368722c0a94692",
+      "changes": []
+    },
+    {
+      "source_path": "skills/engineering/setup-matt-pocock-skills/issue-tracker-gitlab.md",
+      "path": "setup-matt-pocock-skills/issue-tracker-gitlab.md",
+      "source_sha256": "947602d33a80f98f939fb990995b8f95a3459b114b919c4221d08bd75d7cffe0",
+      "bundled_sha256": "947602d33a80f98f939fb990995b8f95a3459b114b919c4221d08bd75d7cffe0",
+      "changes": []
+    },
+    {
+      "source_path": "skills/engineering/setup-matt-pocock-skills/issue-tracker-local.md",
+      "path": "setup-matt-pocock-skills/issue-tracker-local.md",
+      "source_sha256": "7dcda20a2eb4bdc89b95d1143423c0691309921cadae3132e6424f371030506e",
+      "bundled_sha256": "7dcda20a2eb4bdc89b95d1143423c0691309921cadae3132e6424f371030506e",
+      "changes": []
+    },
+    {
+      "source_path": "skills/engineering/setup-matt-pocock-skills/triage-labels.md",
+      "path": "setup-matt-pocock-skills/triage-labels.md",
+      "source_sha256": "ae512af838c78b8750471c42cd2b20fa32319553e61d84c9a23d171b40ce14aa",
+      "bundled_sha256": "ae512af838c78b8750471c42cd2b20fa32319553e61d84c9a23d171b40ce14aa",
+      "changes": []
+    },
+    {
+      "source_path": "skills/engineering/tdd/agents/openai.yaml",
+      "path": "tdd/agents/openai.yaml",
+      "source_sha256": "ea6f01cf1b8c06a4b0f5b649d74b1b8ce8685e72af1b38d70d877693e092af0b",
+      "bundled_sha256": "ea6f01cf1b8c06a4b0f5b649d74b1b8ce8685e72af1b38d70d877693e092af0b",
+      "changes": []
+    },
+    {
+      "source_path": "skills/engineering/tdd/SKILL.md",
+      "path": "tdd/instructions.md",
+      "source_sha256": "5505d25bbaa8fc14a79e4d20163936958992a2995b7f1dd1d6197edc9ed722e0",
+      "bundled_sha256": "5505d25bbaa8fc14a79e4d20163936958992a2995b7f1dd1d6197edc9ed722e0",
+      "changes": [
+        {
+          "kind": "rename-entry",
+          "from": "SKILL.md",
+          "to": "instructions.md"
+        }
+      ]
+    },
+    {
+      "source_path": "skills/engineering/tdd/mocking.md",
+      "path": "tdd/mocking.md",
+      "source_sha256": "3ceb807fdf4a47d6a93d4d9a891e5ba6d362a6247bd08adc451feebfc17361ef",
+      "bundled_sha256": "3ceb807fdf4a47d6a93d4d9a891e5ba6d362a6247bd08adc451feebfc17361ef",
+      "changes": []
+    },
+    {
+      "source_path": "skills/engineering/tdd/tests.md",
+      "path": "tdd/tests.md",
+      "source_sha256": "859f9e592c188fda4fc7277dd180e4ce9c7a2e13f6efe1f6f29eccc9d28c106a",
+      "bundled_sha256": "859f9e592c188fda4fc7277dd180e4ce9c7a2e13f6efe1f6f29eccc9d28c106a",
+      "changes": []
+    },
+    {
+      "source_path": "skills/engineering/to-spec/agents/openai.yaml",
+      "path": "to-spec/agents/openai.yaml",
+      "source_sha256": "1c5b4d1e3d8e52287ef19cc2742fdbbfae1914ac75d33af3e4c8174f08cc55bb",
+      "bundled_sha256": "1c5b4d1e3d8e52287ef19cc2742fdbbfae1914ac75d33af3e4c8174f08cc55bb",
+      "changes": []
+    },
+    {
+      "source_path": "skills/engineering/to-spec/SKILL.md",
+      "path": "to-spec/instructions.md",
+      "source_sha256": "43ad9cf318e5e7d3d1fa360253a37021796dc87a0c2e595ad262661a10f85088",
+      "bundled_sha256": "43ad9cf318e5e7d3d1fa360253a37021796dc87a0c2e595ad262661a10f85088",
+      "changes": [
+        {
+          "kind": "rename-entry",
+          "from": "SKILL.md",
+          "to": "instructions.md"
+        }
+      ]
+    },
+    {
+      "source_path": "skills/engineering/to-tickets/agents/openai.yaml",
+      "path": "to-tickets/agents/openai.yaml",
+      "source_sha256": "21bc6215fffcd7614e9f772bb1760e87cc5fc7dcc707e7d282bc9414267a6090",
+      "bundled_sha256": "21bc6215fffcd7614e9f772bb1760e87cc5fc7dcc707e7d282bc9414267a6090",
+      "changes": []
+    },
+    {
+      "source_path": "skills/engineering/to-tickets/SKILL.md",
+      "path": "to-tickets/instructions.md",
+      "source_sha256": "56ec23c5b2782785d4e65bff9e315b6d3aeb4ef977c174a219e99489fada1995",
+      "bundled_sha256": "56ec23c5b2782785d4e65bff9e315b6d3aeb4ef977c174a219e99489fada1995",
+      "changes": [
+        {
+          "kind": "rename-entry",
+          "from": "SKILL.md",
+          "to": "instructions.md"
+        }
+      ]
+    }
+  ]
+}
