@@ -4,20 +4,105 @@
 
 用户只需调用 `$dev-workflow`。技能执行各阶段时读取仓库内对应的原版正文、模板和参考资料，无需另外安装或手工切换这些技能。
 
-## 使用
+## 安装
 
-仓库根目录就是完整的 `dev-workflow` 技能包。安装时保留整个目录结构，入口为 [SKILL.md](SKILL.md)。
+以下以 Codex 为例，任选一种方式安装即可。仓库根目录就是完整技能包，入口为 [SKILL.md](SKILL.md)，请保留全部配套文件；无需另外安装内置的 12 个原版技能。
+
+### 方式一：让 Codex 安装
+
+将下面这段话发送给 Codex：
 
 ```text
-$dev-workflow 帮我开发一个设备预约系统。
-$dev-workflow 修复这个功能在边界输入下的错误。
-$dev-workflow 继续上次需求，先读取工作记录。
+$skill-installer
+请从 https://github.com/C1os7jee/dev_workflow 的仓库根目录安装技能，
+名称使用 dev-workflow，并保留全部配套文件。
 ```
+
+Codex 会使用内置安装器处理 GitHub 仓库中的技能。安装完成后，如果技能列表中还没有出现 `dev-workflow`，重启 Codex。
+
+### 方式二：使用终端命令
+
+需要 Node.js 22.20 或更高版本。在终端执行：
+
+```bash
+npx skills@latest add C1os7jee/dev_workflow --skill dev-workflow -a codex -g --copy
+```
+
+| 参数 | 含义 |
+| --- | --- |
+| `--skill dev-workflow` | 选择本仓库的统一技能入口 |
+| `-a codex` | 安装给 Codex |
+| `-g` | 安装到个人目录，供不同项目使用 |
+| `--copy` | 复制文件，避免依赖符号链接 |
+
+如果只想给当前项目安装，请先进入项目目录，执行不带 `-g` 的命令：
+
+```bash
+npx skills@latest add C1os7jee/dev_workflow --skill dev-workflow -a codex --copy
+```
+
+安装前也可以只列出仓库中的可用技能：
+
+```bash
+npx skills@latest add C1os7jee/dev_workflow --list
+```
+
+本仓库只提供一个安装入口：`dev-workflow`。
+
+## 使用
+
+在 Codex 中打开实际要开发的项目目录，输入 `$dev-workflow` 并描述目标。创建新项目时，打开准备存放项目的目录即可。
+
+### 小需求或 Bug 修复
+
+```text
+$dev-workflow
+修复运费计算：订单金额恰好达到免运费门槛时，仍然收取运费。
+请检查现有规则，修复并完成相关验证。
+```
+
+目标和验收明确时，技能会检查项目并直接推进实现或诊断、验证和审查；遇到影响业务规则的歧义时再提问。
+
+### 大需求或新项目
+
+```text
+$dev-workflow
+我想开发一个团队设备预约系统，支持查看设备、预约、取消和管理员维护。
+先帮我梳理首版范围、业务规则和验收标准，再形成方案并开发。
+```
+
+技能先澄清需求，请你确认范围和验收；再展示方案、任务与验证策略，请你确认后实施。项目准备已内置，无需单独运行 setup，也不用手工切换内置技能。
+
+### 继续上次的任务
+
+```text
+$dev-workflow
+继续设备预约系统的开发，先读取已有工作记录，
+沿用已经确认的需求和方案，从上次未完成的阶段继续。
+```
+
+大需求默认集中维护一份本地工作记录，优先沿用项目现有位置；没有约定时使用 `.scratch/<需求名>/work.md`。新会话中可提供该文件路径，方便恢复进度。
 
 - 小需求：项目检查 → 明确目标与验收 → 实现或诊断 → 验证与审查 → 交付。
 - 大需求：项目检查 → 需求澄清与确认 → 设计、规格及任务拆分 → 方案确认 → 实施 → 验证与审查 → 交付。
 
-大小由影响范围、不确定性、复杂度和风险判断，用户可以纠正。大需求默认维护一份本地工作记录，主 Agent 按实际收益组织子 Agent 并负责集成验收；已有项目约定、用户修改和授权边界继续有效。
+大小由影响范围、不确定性、复杂度和风险判断，用户可以纠正。主 Agent 按实际收益组织子 Agent 并负责集成验收；已有项目约定、用户修改和授权边界继续有效。
+
+## 更新
+
+使用上述 `skills` 命令安装的用户，可按安装范围更新：
+
+```bash
+# 更新个人目录中安装的 dev-workflow
+npx skills@latest update dev-workflow -g
+
+# 在项目目录中更新该项目安装的 dev-workflow
+npx skills@latest update dev-workflow -p
+```
+
+这些命令只更新由 `skills` 安装工具管理的副本。通过 `$skill-installer` 安装的用户，可让 Codex 检查并更新来自本仓库的安装。更新后如果仍未识别到新内容，重启 Codex。
+
+安装与调用方式参考 [OpenAI 技能文档](https://developers.openai.com/codex/skills/)；终端工具的环境要求参考 [skills README](https://github.com/vercel-labs/skills#install-a-skill)，安装和更新参数参考 [skills CLI 文档](https://github.com/vercel-labs/skills/blob/main/docs/commands.md)。
 
 ## 内置原版技能
 
